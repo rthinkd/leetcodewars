@@ -1,5 +1,3 @@
-require 'pry'
-
 def snail(array)
   rotate(array, []).flatten
 end
@@ -20,5 +18,3 @@ def rotate(collection, result)
 
   rotate(new_array, result)
 end
-
-p snail([[1,2,3], [4,5,6], [7,8,9]])
